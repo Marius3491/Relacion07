@@ -9,7 +9,7 @@ public class Main {
         }
         int clientes; // número de clientes que llegan al restaurante buscando mesa.
         do {
-// Muestra el estado de ocupación de las mesas.
+// Muestra el estado de las mesas.
 
             System.out.print("Mesa nº: \n");
             for (int i = 1; i < 11; i++) {
@@ -27,7 +27,7 @@ public class Main {
                 System.out.print("Lo siento, no admitimos grupos de 6, haga grupos de");
                 System.out.println(" 4 personas como máximo e intente de nuevo.");
             } else {
-// Busca una mesa que esté vacía.
+// Busca una mesa vacia.
                 int i_vacia = 0;
                 boolean mesa_vacia = false;
                 for(int i = 9; i >= 0; i--) {
